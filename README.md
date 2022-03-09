@@ -11,6 +11,8 @@ apt install python3-pip python3 git
 pip3 install requests || pip install requests
 pip3 install mmh3 || pip install mmh3
 git clone https://github.com/Huntinex/getfavhash
+cd getfavhash
+chmod +x getfavhash.py
 ```
 
 ## Windows :
@@ -35,12 +37,12 @@ git clone https://github.com/Huntinex/getfavhash
 just enter a url !
 
 ```
-python3 getfavhash.py <URL> 
+./getfavhash <URL> 
 ```
 ## Examples :
 
 ```
-python3 getfavhash.py https://yahoo.com
+./getfavhash https://yahoo.com
 ```
 
 Thanks @yehgdotnet for [idea](https://gist.githubusercontent.com/yehgdotnet/b9dfc618108d2f05845c4d8e28c5fc6a/raw/f36ced8204e4998911dc17af39bf1c31fd58ef78/get-shodan-favicon-hash.py)!
